@@ -4,6 +4,8 @@ React dashboard for the [Stock Market Analytics Pipeline](https://github.com/yun
 sentiment and 5-day forecasts for 9 U.S. tech stocks from Supabase, which an Apache Airflow
 pipeline refreshes every 4 hours.
 
+**Live demo:** https://stock-analytics-dashboard-weld.vercel.app
+
 ![Dashboard](docs/dashboard.jpg)
 
 ## Features
