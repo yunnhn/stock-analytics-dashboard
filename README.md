@@ -1,6 +1,6 @@
 # Stock Analytics Dashboard
 
-React dashboard for the [Stock Market Analytics Pipeline](../bigdata). It reads prices, news
+React dashboard for the [Stock Market Analytics Pipeline](https://github.com/yunnhn/stock-analytics-pipeline). It reads prices, news
 sentiment and 5-day forecasts for 9 U.S. tech stocks from Supabase, which an Apache Airflow
 pipeline refreshes every 4 hours.
 
