@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 const StockLogo = ({ code, className = "w-8 h-8", fallbackClass = "" }) => {
     const [imgError, setImgError] = useState(false);
     const cleanCode = code ? code.replace('.JK', '') : 'XX';
-    const logoUrl = `https://assets.stockbit.com/logos/companies/${cleanCode}.png`;
+    // Logo saham AS (assets.stockbit.com hanya untuk saham IDX dan menolak ticker AS)
+    const logoUrl = `https://financialmodelingprep.com/image-stock/${cleanCode}.png`;
 
     if (imgError) {
         return (

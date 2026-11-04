@@ -27,10 +27,9 @@
   background: rgba(255, 255, 255, 0.4); /* Warna saat di-hover */
 }
 
-/* 3. Global Styles (Opsional: Agar background halaman tidak putih saat loading) */
+/* 3. Global Styles: latar gelap yang sama dengan dashboard, halaman boleh di-scroll */
 body {
-  background-color: #E8EFF5;
+  background-color: #0B1330;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Mencegah scroll pada body utama karena kita pakai layout 100vh */
 }

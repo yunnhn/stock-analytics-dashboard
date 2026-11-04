@@ -1,12 +1,12 @@
 import React from 'react';
 
-const BentoCard = ({ children, className = "", title }) => (
-    <div className={`rounded-xl overflow-hidden relative shadow-lg ${className}`}>
+// Kartu dasar dashboard: judul + garis pemisah, warna diatur lewat className/style
+const BentoCard = ({ children, className = "", style, title, action }) => (
+    <div className={`rounded-2xl border p-5 shadow-lg ${className}`} style={style}>
         {title && (
-             <div className="absolute top-2 left-3 z-10">
-                <span className="text-[10px] uppercase tracking-wider font-bold text-white/60 bg-black/20 px-2 py-0.5 rounded backdrop-blur-sm">
-                    {title}
-                </span>
+            <div className="flex items-center justify-between gap-3 pb-3 mb-4 border-b border-white/10">
+                <h3 className="text-base font-semibold text-white">{title}</h3>
+                {action}
             </div>
         )}
         {children}
